@@ -1,0 +1,20 @@
+# Scientific computing
+numpy
+pandas
+matplotlib
+scipy
+rdkit
+
+# Data
+datasets
+
+# Deep learning
+torch
+
+# Tinker RL platform client (the platform itself is an external service; see README)
+tinker>=0.19
+tinker-cookbook>=0.4
+
+# Notebooks
+jupyter
+ipykernel

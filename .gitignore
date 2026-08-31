@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editors / local tooling
+.vscode/
+.codex
+.codex/
+.agents/
+.claude/
+
+# Private notes (kept local only)
+diary/
+
+# Virtualenvs
+tinker_env/
+
+# Third-party reference code (not part of this project)
+tinker-cookbook/
+QuantumDeepField_molecule/
+
+# Regenerable dataset workspace & checkpoints (final artifact lives in dataset/)
+datasets_v2/
+fourstep_qed_logp_mw_sft_train_checkpoints/
+qm9.csv
+
+# Per-experiment generated data (HF dataset copies) and tokenizer caches
+data/
+tokenizers/
+
+# Training outputs
+out/
+output/
+out_subprocess/
+output_subprocess/
+out_early_stop/
+nonsubprocess/
+
+# Model weights
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Misc
+*.log
+nohup.out
+.DS_Store

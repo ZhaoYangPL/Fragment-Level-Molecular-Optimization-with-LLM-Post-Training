@@ -1,0 +1,51 @@
+{
+  "run_tag": "gen_test_2d",
+  "saved_at": "2026-06-13T19:42:13",
+  "config": {
+    "checkpoint": "tinker://cbb50ec0-d32d-5a70-8099-d10cc23572e9:train:0/weights/2D-qed-1000-NoEarlyStop",
+    "base_model": "Qwen/Qwen3-8B",
+    "num_targets": 100,
+    "trials_per_target": 10,
+    "max_turns": 3,
+    "temperature": 1.0,
+    "top_p": 0.9,
+    "top_k": 50,
+    "rng_seed": 42,
+    "lora_rank": 32,
+    "dataset_name": "Alan123/qa_dataset_with_qed_logp_mw_grpo",
+    "data_split": "train"
+  },
+  "aggregate": {
+    "num_targets_evaluated": 100,
+    "num_targets_total": 100,
+    "num_trials_total": 1000,
+    "mean_best_nte": 1.0142590214677119,
+    "std_best_nte": 0.5583362424048576,
+    "median_best_nte": 0.9249976136382929,
+    "min_best_nte": 0.1582093234364954,
+    "max_best_nte": 2.6219186176466156,
+    "mean_best_qed_error": 0.14834177047418579,
+    "mean_best_logp_error": 1.5559126999999993,
+    "mean_best_mw_error": 9.9468956926337,
+    "turn_acceptance_rate": 0.5456666666666666,
+    "turn_validity_rate": 0.9366666666666666,
+    "trial_validity_rate": 1.0,
+    "nte_buckets": {
+      "low": {
+        "count": 0,
+        "mean_best_nte": null,
+        "std_best_nte": null
+      },
+      "mid": {
+        "count": 15,
+        "mean_best_nte": 0.681579721487287,
+        "std_best_nte": 0.37655797321786516
+      },
+      "high": {
+        "count": 85,
+        "mean_best_nte": 1.0729671332289634,
+        "std_best_nte": 0.5645810523583765
+      }
+    }
+  }
+}

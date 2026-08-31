@@ -1,0 +1,14 @@
+{
+  "checkpoint": "tinker://cbb50ec0-d32d-5a70-8099-d10cc23572e9:train:0/weights/2D-qed-1000-NoEarlyStop",
+  "base_model": "Qwen/Qwen3-8B",
+  "num_targets": 100,
+  "trials_per_target": 10,
+  "max_turns": 3,
+  "temperature": 1.0,
+  "top_p": 0.9,
+  "top_k": 50,
+  "rng_seed": 42,
+  "lora_rank": 32,
+  "dataset_name": "Alan123/qa_dataset_with_qed_logp_mw_grpo",
+  "data_split": "train"
+}

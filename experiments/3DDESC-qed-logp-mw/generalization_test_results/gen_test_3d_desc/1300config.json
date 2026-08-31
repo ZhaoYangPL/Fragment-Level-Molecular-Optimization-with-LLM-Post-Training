@@ -1,0 +1,14 @@
+{
+  "checkpoint": "tinker://024cf6d0-0c9e-5a69-9174-bf46d9aec24e:train:0/weights/3D-qed-1300",
+  "base_model": "Qwen/Qwen3-8B",
+  "num_targets": 100,
+  "trials_per_target": 10,
+  "max_turns": 3,
+  "temperature": 1.0,
+  "top_p": 0.9,
+  "top_k": 50,
+  "rng_seed": 42,
+  "lora_rank": 32,
+  "dataset_name": "Alan123/qa_dataset_with_qed_logp_mw_grpo",
+  "data_split": "train"
+}
